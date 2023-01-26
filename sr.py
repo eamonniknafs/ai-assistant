@@ -6,9 +6,8 @@ r = sr.Recognizer()
 
 def listen():
     with sr.Microphone() as source:
-        beepy.beep(1)           
-        r.energy_threshold = 3500                                                                        
-        audio = r.listen(source, timeout=10)
+        beepy.beep(1)                                                                        
+        audio = r.listen(source, timeout=7)
         resp = r.recognize_google(audio, language='en-US')
         print("You said: " + resp)
         beepy.beep(1)                  
