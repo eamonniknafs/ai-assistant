@@ -2,7 +2,7 @@ import platform
 
 # speak text
 def speak(text):
-    if platform.system() == "Drwin":
+    if platform.system() == "Darwin":
         import subprocess
         subprocess.call(['say', text])
     else:
