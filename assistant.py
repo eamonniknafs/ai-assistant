@@ -1,5 +1,6 @@
 import os
 import openai
+import sys
 from sr import listen
 from tts import speak
 
@@ -12,4 +13,15 @@ def run():
     speak(response.choices[0].text)
 
 if __name__ == "__main__":
-    run()
+    while True:
+        try:
+            # Wait for sparcebar to be pressed
+            print("Press return to start the assistant")
+            input()
+            
+            # Run the assistant
+            run()
+
+        except KeyboardInterrupt:
+            print("\nLater nerd!")
+            sys.exit(0)

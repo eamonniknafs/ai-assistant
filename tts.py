@@ -1,6 +1,5 @@
-import pyttsx3
+import subprocess
 
 def speak(text):
-    engine = pyttsx3.init()
-    engine.say(text)
-    engine.runAndWait()
+    subprocess.call(['say', text])
+    
