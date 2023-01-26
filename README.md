@@ -1,5 +1,5 @@
-# Ai Assistant
-A voice assistant using OpenAI's GPT-3 API and Google's text-to-speech. Built in two hours just for fun. If you want to use this, you'll need to get an API key from OpenAI. You can get one [here](https://beta.openai.com/).
+# AI Assistant
+A voice assistant using OpenAI's GPT-3 API and Google's text-to-speech. Built in a few hours just for fun. If you want to use this, you'll need to get an API key from OpenAI. You can get one [here](https://beta.openai.com/).
 
 Feel free to use this code for whatever you want. If you do, please give me credit.
 
