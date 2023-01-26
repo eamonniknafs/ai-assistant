@@ -15,7 +15,7 @@ def run():
     speak(response.choices[0].text)
 
 if __name__ == "__main__":
-    print("Welcome to the OpenAI assistant! (press Ctrl+C to exit)")
+    print("\nWelcome to the OpenAI assistant! (press Ctrl+C to exit)")
     while True:
         try:
             # Wait for sparcebar to be pressed
