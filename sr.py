@@ -2,6 +2,7 @@ import speech_recognition as sr
 
 # get audio from the microphone                                                                       
 r = sr.Recognizer()
+
 def listen():
     with sr.Microphone() as source:                                                                       
         print("Speak:")                                                                                   
