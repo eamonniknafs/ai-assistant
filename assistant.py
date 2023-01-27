@@ -18,7 +18,7 @@ if __name__ == "__main__":
     print("\nWelcome to the OpenAI assistant! (press Ctrl+C to exit)")
     while True:
         try:
-            # Wait for sparcebar to be pressed
+            # Wait for return to be pressed
             print("\n---------------\nPress return to start the assistant")
             input()
 
